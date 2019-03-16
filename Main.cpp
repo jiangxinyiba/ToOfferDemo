@@ -1,6 +1,6 @@
 #include "Section1.h"
  
-
+using namespace std;
 int main()
 {
 	///////////////////////////////////////////////////////////////////////////
@@ -13,7 +13,6 @@ int main()
 	cout << "Input a str:" ;
 	char* str = new char[100];
 	cin >> str;
-	cout << "Change str into int:" ;
 	s1->StrToInt(str);
 
 
