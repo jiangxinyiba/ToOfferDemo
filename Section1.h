@@ -11,6 +11,6 @@ public:
 	Section1() {}
 
 public:
-	int	StrToInt(char* str);
+	int	StrToInt( char* str);
 
 };
